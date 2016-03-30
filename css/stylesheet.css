@@ -1,0 +1,91 @@
+/* stylesheet.css
+ * CSS sheet for Beterschap Frank!
+ * Made on 2016-03-30
+ * By GeOdin
+ * Last modified on 2016-03-30
+ */
+
+/* reset all padding and margins to 0 */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* body */
+body {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* #wrapper */
+#wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+/* .headerFooter */
+.headerFooter {
+	position: absolute;
+	left: 0%;
+	width: 100%;
+	height: 20vh;
+	background-color: #3c643c;
+	color: #88e188;
+}
+
+/* .headerFooterText */
+.headerFooterText {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	font-size: 2.5em;
+}
+
+/* #header */
+#header {
+	top: 0vh;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+}
+
+/* #main */
+#main {
+	position: absolute;
+	top: 20vh;
+	height: 60vh;
+	width: 100%;
+	background-color: #5b965b;
+	color: #88e188;
+	font-size: 1.2em;
+}
+
+/* #image */
+#image {
+	position: absolute;
+	top: 10vh;
+	bottom: 10vh;
+	left: 10%;
+	right: 10%;
+	height: 60vh;
+	width: 80%;
+}
+
+/* #footer */
+#footer {
+	bottom: 0vh;
+	border-bottom-left-radius: 17px;
+	border-bottom-right-radius: 17px;
+}
+
+/* #references */
+#references {
+	position: absolute;
+	bottom: 2.5vh;
+	width: 100%;
+}
